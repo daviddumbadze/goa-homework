@@ -1,0 +1,4 @@
+print(7898654>567657654)#false
+print(1057677<564785428)#true
+print(6499>1000)#true
+print(654279>1000000)#false
