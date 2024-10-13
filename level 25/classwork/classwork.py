@@ -1,6 +1,5 @@
-movie_list =( "home alone home alone 2  kung fu panda harry potter all  leo")
-print(movie_list)[:1]
 
-
-
-
+favorite_movies = ["leo","harrypoter","kung fu panda","jumanji","idk"]
+print("ჩემი საყვარელი ფილმები:")
+for movie in favorite_movies:
+    print(movie)
