@@ -1,0 +1,13 @@
+.flex{
+    border: 1px solid green;
+    display: flex;
+    align-items: start;
+    align-items: end;
+    align-items: center;
+
+    justify-content: start;
+    align-items: end;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}  
