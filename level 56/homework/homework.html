@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flags with position: relative</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="flag-container">
+    
+    <div class="flag germany">
+      <div class="stripe black"></div>
+      <div class="stripe red"></div>
+      <div class="stripe yellow"></div>
+    </div>
+
+    
+    <div class="flag italy">
+      <div class="stripe green"></div>
+      <div class="stripe white"></div>
+      <div class="stripe red"></div>
+    </div>
+  </div>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+    
+    
+    .flag-container {
+      display: flex;
+      gap: 20px;
+    }
+    
+    
+    .flag {
+      width: 60px;
+      height: 120px;
+      position: relative; 
+      border: 2px solid #ccc;
+    }
+    
+    
+    .stripe {
+      width: 100%;
+      height: 33.33%; 
+      position: relative;
+    }
+    
+    
+    .germany .black {
+      background-color: black;
+    }
+    .germany .red {
+      background-color: red;
+    }
+    .germany .yellow {
+      background-color: yellow;
+    }
+    
+    
+    .italy .green {
+      background-color: green;
+    }
+    .italy .white {
+      background-color: white;
+    }
+    .italy .red {
+      background-color: red;
+    }
+    </style>
+</body>
+</html>
